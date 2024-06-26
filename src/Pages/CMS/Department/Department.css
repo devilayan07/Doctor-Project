@@ -1,0 +1,19 @@
+#department{
+    background: url(../../../img/medical.jpg);
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+    background-attachment: fixed;
+    background-size: cover; /* Ensures image covers the container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-attachment: fixed; /* Fixed background */
+
+
+
+
+}

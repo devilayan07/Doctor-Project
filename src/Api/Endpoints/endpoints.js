@@ -1,0 +1,43 @@
+export const endpoints={
+    auth:{
+        register:"/register"
+    },
+    cms:{
+        alldoctors:"/alldoctordepartment",
+        featuredoctors:"/featured",
+        alldepartment:"/alldepartment",
+        departmentwisedoctor:"/departmentidwisedoctor",
+        doctordetails:"/doctordetails",
+        appointment:"/createappointment",
+        dashboard:"/userdash",
+        personalcare:"/personalcare",
+        childcare:"/childcare",
+        allblog:"/allblog",
+        recentblog:"/recentblog",
+        searchblog:"/blogsearch",
+        singleblog:"/singleblog",
+        singleblogcomment:"/getblogcomment",
+        createcomment:"/createblogcomment",
+        createcontact:"/createcontact"
+    },
+};
+
+export const sucessNotificationEndPoints=[
+    endpoints.auth.register,
+    endpoints.cms.alldoctors,
+    endpoints.cms.featuredoctors,
+    endpoints.cms.alldepartment,
+    endpoints.cms.departmentwisedoctor,
+    endpoints.cms.doctordetails,
+    endpoints.cms.appointment,
+    endpoints.cms.dashboard,
+    endpoints.cms.personalcare,
+    endpoints.cms.childcare,
+    endpoints.cms.allblog,
+    endpoints.cms.recentblog,
+    endpoints.cms.searchblog,
+    endpoints.cms.singleblog,
+    endpoints.cms.singleblogcomment,
+    endpoints.cms.createcomment,
+    endpoints.cms.createcontact
+]
