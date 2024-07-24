@@ -136,7 +136,7 @@ function Blog() {
                       textAlign="center"
                       sx={{ fontWeight: "600" }}
                     >
-                      {item.title}
+                      {item?.title}
                     </Typography>
                     <Typography
                       variant="body2"
@@ -150,7 +150,7 @@ function Blog() {
                       size="small"
                       variant="contained"
                       component={Link}
-                      to={`/blogdetails/${item._id}`}
+                      to={`/blogdetails/${item?._id}`}
                       onClick={() => handleItem(item)}
                     >
                       Read More.....

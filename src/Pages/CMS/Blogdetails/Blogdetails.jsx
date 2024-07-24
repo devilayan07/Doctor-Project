@@ -105,10 +105,10 @@ function Blogdetails() {
             {
                 Array.isArray(Singlecomments) && Singlecomments.map((item, index) => (
                     <Box key={index} component="div" sx={{ height: "150px", width: "100%", border: "1px solid black", marginBottom: "10px", boxSizing: "border-box" }}>
-                        <Typography variant='h6'>Name: {item.user_id.name}</Typography>
+                        <Typography variant='h6'>Name: {item?.user_id?.name}</Typography>
                         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <EmailIcon sx={{ color: "red" }} />
-                            <Typography>{item.user_id.email}</Typography>
+                            <Typography>{item?.user_id?.email}</Typography>
                         </Box>
                         <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
                             <MapsUgcIcon sx={{ color: "blue" }} />
