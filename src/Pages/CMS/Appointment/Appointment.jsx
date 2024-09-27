@@ -72,15 +72,15 @@ function Appointment() {
     <section className='appointment' id='appointment'>
     <Box>
       <Grid container>
-        <Grid item md={6} >
+        {/* <Grid item md={6} >
           <Typography variant='h5' textAlign={"center"} sx={{marginTop:"140px"}}>APPOINTMENT</Typography>
           <Typography variant='h3' sx={{marginTop:"20px"}}>Make An Appointment For Your Family</Typography>
           <Typography variant='body2' sx={{marginTop:"30px" }}>Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum qui distinctio, adipisci iusto vero deserunt maiores commodi pariatur minus vitae illo magni tempora animi perferendis. Dicta voluptas consequuntur optio numquam.   </Typography>
-        </Grid>
-        <Grid item md={6}>
+        </Grid> */}
+        <Grid item md={12}>
           <Box component="form" sx={{maxWidth:"600px",mx:"auto",p:2}}>
-            <Typography variant='h4' textAlign={"center"} sx={{marginTop:"100px"}}>Book An Appointment</Typography>
-            <Grid container spacing={2}>
+            <Typography variant='h4' textAlign={"center"} sx={{marginTop:"70px"}}>Book An Appointment</Typography>
+            <Grid container spacing={2} sx={{marginTop:"20px"}}>
               <Grid item xs={12} md={6}>
                 <TextField
                  fullWidth

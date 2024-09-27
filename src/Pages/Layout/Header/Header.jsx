@@ -291,7 +291,7 @@ function Header() {
             </Tabs>
                        </Grid>
                        <Grid item xs={1}>
-                       <Button
+                       {/* <Button
         id="demo-positioned-button"
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
@@ -321,6 +321,43 @@ function Header() {
                       handleClose();
                     }} component={Link} to="/dashboard">My profile</MenuItem>
                   </Menu>
+ */}
+
+<Button
+  id="demo-positioned-button"
+  aria-controls={open ? 'demo-positioned-menu' : undefined}
+  aria-haspopup="true"
+  aria-expanded={open ? 'true' : undefined}
+  onClick={handleClick}
+  sx={{ marginLeft: "30px" }}
+>
+  Dashboard
+</Button>
+<Menu
+  id="demo-positioned-menu"
+  aria-labelledby="demo-positioned-button"
+  anchorEl={anchorEl}
+  open={open}
+  onClose={handleClose} // Close the menu when the user clicks outside
+  anchorOrigin={{
+    vertical: 'top',
+    horizontal: 'left',
+  }}
+  transformOrigin={{
+    vertical: 'top',
+    horizontal: 'left',
+  }}
+>
+  <MenuItem
+    onClick={() => {
+      handleClose(); // Close the menu on click
+    }}
+    component={Link}
+    to="/dashboard" // This link will navigate to the dashboard
+  >
+    My profile
+  </MenuItem>
+</Menu>
 
 
 

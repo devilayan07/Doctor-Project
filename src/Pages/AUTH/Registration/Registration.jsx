@@ -90,7 +90,7 @@ export default function Registration() {
                   fullWidth
                   id="name"
                   error={errors.name}
-                  helperText={errors.name && "Nmae is required"}
+                  helperText={errors.name && "Name is required"}
                   label="Name"
                   autoFocus
                 />
